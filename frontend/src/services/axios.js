@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:5000/api', // Adjust the baseURL if needed
+  baseURL: 'https://heliverse-1-j0cd.onrender.com/api', // Adjust the baseURL if needed
 });
 
 // Add a request interceptor to attach the token
